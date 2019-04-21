@@ -11,14 +11,14 @@ console.log(callResult);
 
 // task 2
 function sum(param) {
-  var isIncludes = false;
+  var isNegative = false;
 
-  return param.reduce(function(nextState, item) {
+  return param.reduce(function(previousState, item) {
     if (!item) {
-      isIncludes = true;
+      isNegative = true;
     }
 
-    return !isIncludes ? nextState + item : nextState;
+    return !isNegative ? previousState + item : previousState;
   });
 
 }
