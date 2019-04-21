@@ -13,7 +13,7 @@ function filter(param) {
     squareRoot = Math.sqrt(value);
   });
 
-  console.log(squareRoot);
+  console.log(positive);
 }
 filter([2, -5, 1, -2, 0, -3, 2, -14]);
 
