@@ -19,7 +19,7 @@ function sum(param) {
     }
 
     return !isNegative ? previousState + item : previousState;
-  });
+  }, 0);
 
 }
 
